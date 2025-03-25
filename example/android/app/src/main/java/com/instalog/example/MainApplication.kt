@@ -1,4 +1,4 @@
-package instalog.example
+package com.instalog.example
 
 import android.app.Application
 import com.facebook.react.PackageList

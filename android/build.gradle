@@ -75,7 +75,6 @@ android {
 }
 
 repositories {
-  mavenCentral()
   google()
 }
 
@@ -84,5 +83,6 @@ def kotlin_version = getExtOrDefault("kotlinVersion")
 dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  api "dev.instalog:mobile:1.0.2"
 }
 

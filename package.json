@@ -1,7 +1,7 @@
 {
   "name": "react-native-instalog",
   "version": "0.1.0",
-  "description": "trtr",
+  "description": "React Native SDK for Instalog - a developer tool for debugging mobile apps",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -52,14 +52,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zfinix/react-native-instalog.git"
+    "url": "git+https://github.com/Instalog-dev/instalog-react-native.git"
   },
   "author": "Chiziaruhoma Ogbonda <chiziaruhoma@gmail.com> (https://github.com/Zfinix)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zfinix/react-native-instalog/issues"
+    "url": "https://github.com/Instalog-dev/instalog-react-native/issues"
   },
-  "homepage": "https://github.com/Zfinix/react-native-instalog#readme",
+  "homepage": "https://github.com/Instalog-dev/instalog-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -69,7 +69,7 @@
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^9.0.2",
     "@types/jest": "^29.5.5",
-    "@types/react": "^18.2.44",
+    "@types/react": "^19.0.0",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",

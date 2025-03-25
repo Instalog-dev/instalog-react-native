@@ -1,4 +1,4 @@
-package instalog.example
+package com.instalog.example
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

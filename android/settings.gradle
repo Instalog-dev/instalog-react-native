@@ -1,0 +1,4 @@
+rootProject.name = 'instalog-react-native'
+
+include ':instalog'
+project(':instalog').projectDir = new File('/Users/chiziaruhoma/projects/work-projects/instalog/android/instalog') 
