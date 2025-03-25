@@ -91,7 +91,6 @@ export interface InstalogInterface {
   initialize(apiKey: string, options?: InstalogOptions): Promise<void>;
   log(event: string, properties?: Record<string, any>): Promise<void>;
   identifyUser(userId: string): Promise<void>;
-  setUserProperties(properties: Record<string, any>): Promise<void>;
   simulateCrash(): Promise<void>;
   sendCrash(name: string, report: string): Promise<boolean>;
   showFeedbackModal(): Promise<void>;
@@ -535,8 +534,6 @@ export const Instalog = {
     InstalogRN.log(event, properties),
   identifyUser: (userId: string): Promise<void> =>
     InstalogRN.identifyUser(userId),
-  setUserProperties: (properties: Record<string, any>): Promise<void> =>
-    InstalogRN.setUserProperties(properties),
   simulateCrash: (): Promise<void> => InstalogRN.simulateCrash(),
   showFeedbackModal: (): Promise<void> => InstalogRN.showFeedbackModal(),
   sendCrash: (name: string, report: string): Promise<boolean> =>
