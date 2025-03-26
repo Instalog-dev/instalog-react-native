@@ -8,6 +8,19 @@ React Native SDK for Instalog - a developer tool for debugging mobile apps. It p
 npm install react-native-instalog
 ```
 
+## Platform-specific Setup
+
+### Android
+
+For feedback functionality on Android, ensure you have the Instalog activity registered in your AndroidManifest.xml:
+
+```xml
+<activity
+  android:name="dev.instalog.mobile.feedback.InstalogFeedbackActivity"
+  android:label="Instalog"
+  android:theme="@style/Theme.Instalog"/>
+```
+
 ## Usage
 
 ### Initialization
