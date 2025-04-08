@@ -5,7 +5,7 @@ React Native SDK for Instalog - a developer tool for debugging mobile apps. It p
 ## Installation
 
 ```sh
-npm install react-native-instalog
+npm i @instalog.dev/react-native
 ```
 
 ## Platform-specific Setup

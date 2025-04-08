@@ -1,5 +1,5 @@
 {
-  "name": "@instalog.dev/react-native-instalog",
+  "name": "@instalog.dev/react-native",
   "version": "0.1.1",
   "description": "React Native SDK for Instalog - a developer tool for debugging mobile apps",
   "source": "./src/index.tsx",
