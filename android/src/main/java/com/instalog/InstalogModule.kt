@@ -94,7 +94,7 @@ class InstalogModule(reactContext: ReactApplicationContext) :
 
   @ReactMethod
   fun showFeedbackModal(promise: Promise) {
-    println(currentActivity)
+
     if (currentActivity == null) {
       promise.reject("ACTIVITY_NULL", "Current activity is null")
       return

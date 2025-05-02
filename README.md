@@ -1,4 +1,4 @@
-# react-native-instalog
+# @instalog.dev/react-native
 
 React Native SDK for Instalog - a developer tool for debugging mobile apps. It provides error tracking, crash reporting, user feedback collection, and event logging capabilities for React Native applications.
 
@@ -28,7 +28,7 @@ For feedback functionality on Android, ensure you have the Instalog activity reg
 Initialize Instalog at the beginning of your app, typically in your main App file:
 
 ```js
-import { Instalog } from 'react-native-instalog';
+import { Instalog } from '@instalog.dev/react-native';
 
 // Initialize with default options
 await Instalog.initialize('YOUR_API_KEY');
@@ -75,7 +75,7 @@ await Instalog.log('button_clicked', {
 Use the ErrorBoundary component to catch and report React component errors:
 
 ```jsx
-import { Instalog } from 'react-native-instalog';
+import { Instalog } from '@instalog.dev/react-native';
 
 export default function App() {
   return (

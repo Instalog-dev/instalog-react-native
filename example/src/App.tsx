@@ -7,8 +7,8 @@ import {
   TextInput,
   Alert,
 } from 'react-native';
-import { Instalog } from 'react-native-instalog';
 import { useEffect, useState } from 'react';
+import { Instalog } from '@instalog.dev/react-native';
 
 // Basic fallback UI for errors
 const BasicErrorFallback = () => (
